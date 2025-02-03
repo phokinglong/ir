@@ -1,0 +1,134 @@
+body {
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #0a1f44;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0a1f44;
+  }
+  
+  .subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #5d6d7e;
+  }
+  
+  .metric-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .metric-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: grab;
+  }
+  
+  .metric-name {
+    display: flex;
+    align-items: center;
+  }
+  
+  .drag-handle {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #5d6d7e;
+  }
+  
+  .remove-button {
+    background-color: #5d6d7e;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: #434f59;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .input-field {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  .button-primary {
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #0a1f44, #003366);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .button-primary:hover {
+    background: linear-gradient(90deg, #003366, #001f33);
+  }
+  
+  .button-secondary {
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    color: #434f59;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .textarea {
+    width: 100%;
+    height: 100px;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .finalize-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .chart-container {
+    margin-top: 20px;
+  }
+  
